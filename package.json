@@ -1,7 +1,7 @@
 {
   "name": "anc-portfolio",
   "version": "0.1.0",
-  "home":"https://anc236.github.io/anc-portfolio/",
+  "home":"https://anc236.github.io/alden-denz/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
