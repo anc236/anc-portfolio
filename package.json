@@ -1,7 +1,7 @@
 {
+  "homepage":"https://anc236.github.io/anc-portfolio/",
   "name": "anc-portfolio",
   "version": "0.1.0",
-  "home":"https://anc236.github.io/alden-denz/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
@@ -26,7 +26,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

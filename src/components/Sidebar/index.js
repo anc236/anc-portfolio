@@ -6,21 +6,21 @@ import { faEnvelope, faHome, faUser, faLink, faGift, faEye} from '@fortawesome/f
 const Sidebar = () => {
     return <>
     <div className='nav-bar'>
-        <Link className='logo' to='/'>
+        <Link className='logo' to='/anc-portfolio'>
             <img src={LogoS} alt="logo" />
             <h2 className="sub-logo" > Alden </h2>
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" to="/">
+            <NavLink exact="true" activeclassname="active" to="/anc-portfolio/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+            <NavLink exact="true" activeclassname="active" className="about-link" to="/anc-portfolio/about">
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
+            <NavLink exact="true" activeclassname="active" className="contact-link" to="/anc-portfolio/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="mywork-link" to="/mywork">
+            <NavLink exact="true" activeclassname="active" className="mywork-link" to="/anc-portfolio/mywork">
                 <FontAwesomeIcon icon={faEye} color="#4d4d4e" />
             </NavLink>
         </nav>
