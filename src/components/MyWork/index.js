@@ -5,7 +5,7 @@ const MyWork = () => {
             <div className="container contact-page">
                 <div className="text-zone">
                     <h1>
-                       My Work
+                       My Work still in progress to create grid image with links in it
                     </h1>
                 </div>
             </div>
